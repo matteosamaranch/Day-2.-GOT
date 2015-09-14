@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		4CEB69DA1BA6B0740023DA0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB69D91BA6B0740023DA0A /* main.m */; };
 		4CEB69DD1BA6B0740023DA0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB69DC1BA6B0740023DA0A /* AppDelegate.m */; };
-		4CEB69E01BA6B0740023DA0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB69DF1BA6B0740023DA0A /* ViewController.m */; };
+		4CEB69E01BA6B0740023DA0A /* AddCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB69DF1BA6B0740023DA0A /* AddCharacterViewController.m */; };
 		4CEB69E31BA6B0740023DA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB69E11BA6B0740023DA0A /* Main.storyboard */; };
 		4CEB69E51BA6B0740023DA0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB69E41BA6B0740023DA0A /* Images.xcassets */; };
 		4CEB69E81BA6B0740023DA0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB69E61BA6B0740023DA0A /* LaunchScreen.xib */; };
 		4CEB69F41BA6B0740023DA0A /* Game_of_Thrones_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB69F31BA6B0740023DA0A /* Game_of_Thrones_AppTests.m */; };
+		4CEB6A021BA6CD400023DA0A /* baratheon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB69FD1BA6CD400023DA0A /* baratheon.jpg */; };
+		4CEB6A031BA6CD400023DA0A /* lannister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB69FE1BA6CD400023DA0A /* lannister.jpg */; };
+		4CEB6A041BA6CD400023DA0A /* stark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB69FF1BA6CD400023DA0A /* stark.jpg */; };
+		4CEB6A051BA6CD400023DA0A /* targaryen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB6A001BA6CD400023DA0A /* targaryen.jpg */; };
+		4CEB6A061BA6CD400023DA0A /* tully.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB6A011BA6CD400023DA0A /* tully.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,19 @@
 		4CEB69D91BA6B0740023DA0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CEB69DB1BA6B0740023DA0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CEB69DC1BA6B0740023DA0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4CEB69DE1BA6B0740023DA0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4CEB69DF1BA6B0740023DA0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CEB69DE1BA6B0740023DA0A /* AddCharacterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCharacterViewController.h; sourceTree = "<group>"; };
+		4CEB69DF1BA6B0740023DA0A /* AddCharacterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCharacterViewController.m; sourceTree = "<group>"; };
 		4CEB69E21BA6B0740023DA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CEB69E41BA6B0740023DA0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CEB69E71BA6B0740023DA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4CEB69ED1BA6B0740023DA0A /* Game of Thrones AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game of Thrones AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEB69F21BA6B0740023DA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CEB69F31BA6B0740023DA0A /* Game_of_Thrones_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game_of_Thrones_AppTests.m; sourceTree = "<group>"; };
+		4CEB69FD1BA6CD400023DA0A /* baratheon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baratheon.jpg; sourceTree = "<group>"; };
+		4CEB69FE1BA6CD400023DA0A /* lannister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lannister.jpg; sourceTree = "<group>"; };
+		4CEB69FF1BA6CD400023DA0A /* stark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stark.jpg; sourceTree = "<group>"; };
+		4CEB6A001BA6CD400023DA0A /* targaryen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = targaryen.jpg; sourceTree = "<group>"; };
+		4CEB6A011BA6CD400023DA0A /* tully.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tully.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +91,11 @@
 		4CEB69D61BA6B0730023DA0A /* Game of Thrones App */ = {
 			isa = PBXGroup;
 			children = (
+				4CEB6A071BA6CD480023DA0A /* HouseImages */,
 				4CEB69DB1BA6B0740023DA0A /* AppDelegate.h */,
 				4CEB69DC1BA6B0740023DA0A /* AppDelegate.m */,
-				4CEB69DE1BA6B0740023DA0A /* ViewController.h */,
-				4CEB69DF1BA6B0740023DA0A /* ViewController.m */,
+				4CEB69DE1BA6B0740023DA0A /* AddCharacterViewController.h */,
+				4CEB69DF1BA6B0740023DA0A /* AddCharacterViewController.m */,
 				4CEB69E11BA6B0740023DA0A /* Main.storyboard */,
 				4CEB69E41BA6B0740023DA0A /* Images.xcassets */,
 				4CEB69E61BA6B0740023DA0A /* LaunchScreen.xib */,
@@ -117,6 +128,18 @@
 				4CEB69F21BA6B0740023DA0A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CEB6A071BA6CD480023DA0A /* HouseImages */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB69FD1BA6CD400023DA0A /* baratheon.jpg */,
+				4CEB69FE1BA6CD400023DA0A /* lannister.jpg */,
+				4CEB69FF1BA6CD400023DA0A /* stark.jpg */,
+				4CEB6A001BA6CD400023DA0A /* targaryen.jpg */,
+				4CEB6A011BA6CD400023DA0A /* tully.jpg */,
+			);
+			name = HouseImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +222,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CEB6A021BA6CD400023DA0A /* baratheon.jpg in Resources */,
+				4CEB6A041BA6CD400023DA0A /* stark.jpg in Resources */,
+				4CEB6A061BA6CD400023DA0A /* tully.jpg in Resources */,
 				4CEB69E31BA6B0740023DA0A /* Main.storyboard in Resources */,
+				4CEB6A051BA6CD400023DA0A /* targaryen.jpg in Resources */,
+				4CEB6A031BA6CD400023DA0A /* lannister.jpg in Resources */,
 				4CEB69E81BA6B0740023DA0A /* LaunchScreen.xib in Resources */,
 				4CEB69E51BA6B0740023DA0A /* Images.xcassets in Resources */,
 			);
@@ -219,7 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CEB69E01BA6B0740023DA0A /* ViewController.m in Sources */,
+				4CEB69E01BA6B0740023DA0A /* AddCharacterViewController.m in Sources */,
 				4CEB69DD1BA6B0740023DA0A /* AppDelegate.m in Sources */,
 				4CEB69DA1BA6B0740023DA0A /* main.m in Sources */,
 			);
